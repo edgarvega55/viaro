@@ -1,0 +1,284 @@
+@media (max-width: 1199px) { 
+
+    .applications-desktop-text h2 {
+        margin-left: 7.5em;
+        margin-right: 7.5em;
+    }
+}
+
+@media (max-width: 990px) { 
+    .service-text-gray ul li, p {
+        font-size: 18px;
+        font-weight: 80;         
+    }
+
+    .img-float-left-service {
+        max-width: 320px;
+        max-height: 310px;
+    }
+    
+    .img-float-right-service  {
+        max-width: 320px;
+        max-height: 310px;
+    }
+
+    .service-text-gray ul li.text-big {
+        font-size: 1.4em;
+    }
+
+    .applications-desktop-text h2 {
+        margin-left: 7em;
+        margin-right: 7em;
+        bottom: 100px;
+    }
+
+    .applications-tailored-text-icon {
+        font-size: 11em;
+        margin-left: 2.2em;
+        padding-top: 0;
+    }
+
+    .applications-desktop-text p {
+        bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;  
+    }
+
+    .ui-stack h3 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 765px) { 
+    
+    .service-text-gray ul li, p {
+        font-size: 16px;
+        font-weight: 60;         
+    }
+
+    #carouselHistoryIndicatorsLittle ol li {
+        background-color: #777;
+    }
+
+    #carouselHistoryIndicatorsLittle ol li.active {
+        background-color: #E64B3C !important;
+    }
+
+    #carouselHistoryIndicatorsLittle img {
+        max-width: 120px;
+        max-height: 70px
+    }
+
+    .text-gray p {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .comments-services h4 {
+        font-size: 1rem;
+    }
+
+    .service-div-img {
+        order: 2; 
+    }
+
+    .service-div-text {
+        order: 1; 
+    }
+
+    .img-float-left-service {
+        float: none;
+        max-height: 240px;
+        margin-top: 15px;
+    }
+    
+    .img-float-right-service {
+        float: none;
+        max-height: 240px;
+        margin-top: 15px;
+    }
+    
+    .applications-tailored-text h2 {
+        margin-left: 1em;
+        margin-right: 1em;
+        bottom: 150px;
+    }
+
+    .service-text-gray ul li.text-big {
+        font-size: 1.2em;
+    }
+
+    .applications-tailored-text-icon {
+        font-size: 10em;
+        margin-left: 2em;
+    }
+
+    .applications-desktop-text h2 {
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+    }
+
+    .support-level-only-img {
+        display: none;
+    }
+    
+    .support-level-only-carousel {
+        display: block;
+    }
+}
+
+@media (max-width: 575px) { 
+    
+    .applications-desktop-text h2 {
+        margin-left: 7em;
+        margin-right: 7em;
+        font-size: 1.2em !important;
+        bottom: 120px;
+    }
+
+    .applications-desktop-text p {
+        bottom: 15px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .technologies-service-carousel-big {
+        display: none;
+    }
+
+    .technologies-service-carousel-smaller {
+        display: block;
+    }
+
+    #carouselHistoryIndicatorsSmaller ol{
+        bottom: -60px !important;
+        padding-bottom: 20px;
+    }
+
+    #carouselHistoryIndicatorsSmaller ol li {
+        background-color: #777;
+    }
+
+    #carouselHistoryIndicatorsSmaller ol li.active {
+        background-color: #E64B3C !important;
+    }
+
+    #carouselHistoryIndicatorsSmaller img {
+        max-width: 120px;
+        max-height: 60px
+    }
+
+    .applications-tailored-text h2 {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        bottom: 130px;
+        font-size: 1.2em !important;
+    }
+    
+    .applications-tailored-text p {
+        font-size: 16px;
+        bottom: 10px;
+    }
+    
+    .img-float-right-service {
+        max-height: 200px;
+        max-width: 200px;
+    }
+    
+    .img-float-left-service {
+        max-height: 230px;
+        max-width: 200px;
+    }
+
+    .applications-tailored-text-icon {
+        font-size: 11em;
+        margin-left: 1em;
+    }
+
+    .service-text-gray ul li.text-big {
+        font-size: 1em;
+    }
+
+}
+
+@media (max-width: 472px) {
+    .applications-desktop-text h2 {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .desktop-description p {
+        font-size: 18px;
+    }
+
+    .applications-tailored-text-icon {
+        font-size: 10em;
+        margin-left: 0.6em;
+    }
+}
+
+@media (max-width: 350px) {
+    .applications-tailored-text h2 {
+        bottom: 150px;
+    }
+    
+    .applications-tailored-text p {
+        bottom: -10px;
+    }
+    
+    .applications-tailored-text-icon {
+        font-size: 10em;
+        margin-left: 0.6em;
+    }
+
+    .text-gray p {
+        font-size: 16px;
+    }
+
+    .comments-services h4 {
+        font-size: 0.9rem;
+    }
+
+    .service-text-gray ul li.text-big {
+        font-size: 1em;
+    }
+
+    .applications-desktop-text h2 {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .applications-desktop-text p {
+        bottom: -30px;
+    }
+
+    .ui-stack ul li {
+       padding-left: 0; 
+    }
+}
+
+@media (max-width: 295px) {
+    .applications-tailored-text h2 {
+        bottom: 150px;
+        font-size: 1em !important;
+    }
+    
+    .applications-tailored-text p {
+        bottom: -15px;
+    }
+    
+    .applications-tailored-text-icon {
+        font-size: 8em;
+        margin-left: 0.3em;
+    }
+
+    .applications-desktop-text h2 {
+       font-size: 18px !important;
+    }
+
+    .applications-desktop-text p {
+        bottom: -20px;
+        line-height: 25px;
+    }
+
+}

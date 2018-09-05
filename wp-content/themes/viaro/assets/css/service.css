@@ -1,0 +1,248 @@
+.applications-tailored-text {
+    text-align: center !important;
+}
+
+.applications-tailored-text p {
+    background-color:transparent;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+.applications-tailored-text h2 {
+    background-color:transparent;
+    display: block;
+    position: absolute;
+    bottom: 130px;
+    padding: 5px;
+    margin-left: 6em;
+    margin-right: 6em;
+    line-height: 36px;
+    font-weight: bold;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.service-enterprise ul li, p {
+    text-align: left ;
+}
+
+.applications-tailored-text-icon {
+    font-size: 17em;
+    color:#e5e5e5;
+    margin-left: 1.2em;
+    padding-top: 35px;
+}
+
+.applications-tailored {
+    text-align: center;
+}
+
+.service-text-gray ul li, p {
+    background-color: transparent;
+    color: #777777;
+    font-size: 21px;
+    padding-bottom: 3px;
+    font-family: open-sans, sans-serif;
+    font-weight: 100;       
+}
+
+.img-float-right-service {
+    box-shadow: 3px 3px 3px 3px;
+    max-width: 350px;
+    max-height: 390px;
+    float: right;
+}
+
+.content-white-service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+.content-gray-service {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f5f2;
+    text-align: left;
+}
+
+.img-float-left-service {
+    box-shadow: 3px 3px 3px 3px;
+    max-width: 440px;
+    max-height: 390px;
+    float: left;
+}
+
+.carousel-techologies-img {
+    object-fit: scale-down !important;
+    max-height: 86px;
+    margin: 0%
+}
+
+.technologies-service-carousel-big {
+    visibility: visible
+}
+
+.technologies-service-carousel-smaller {
+    display: none;
+}
+
+.delivering p {
+    text-align: center;
+}
+
+.service-text-gray ul li.text-big {
+    font-size: 1.6em;
+    font-weight: 100;
+    font-family: open-sans, sans-serif;
+}
+
+.applications-desktop-text h2 {
+    position: absolute;
+    margin-left: 10em;
+    margin-right: 10em;
+    bottom: 150px;
+}
+
+.applications-desktop-text p {
+    background-color:transparent;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.ui-stack h3 {
+    text-align: center;
+}
+
+.ui-stack ul li {
+    font-size: 20px;
+    color: #777777;
+    font-weight: normal;
+    background-color: transparent;
+    padding-left: 30px;
+}
+
+.ui-stack h4,
+.desktop-description h4 {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-family: open-sans, sans-serif;
+}
+
+.desktop-description p {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.desktop-description {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.qa-services img.icon {
+    background-color: #E64B3C;
+    width: 44px;
+    height: 40px;
+    color: inherit;
+    border-radius: 4px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.qa-services p, ul li {
+    color: #777777;
+    background-color: transparent;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.qa-services-diagram {
+    text-align: center;
+}
+
+.service-development {
+    text-align: center;
+}
+
+.service-development ul li img {
+    height: 60px;
+}
+
+.support-services img.icon {
+    width: 54px;
+    height: 54px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.support-services {
+    text-align: center;
+}
+
+.support-services h4{
+    font-size: 18px;
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+}
+
+.support-services p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #777777;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    background-color: transparent;
+    text-align: center;
+}
+
+.support-services ul  li{
+    text-align: left;
+    font-size: 16px;
+    color: #777777;
+    background-color: transparent;
+    font-family: open-sans, sans-serif;
+}
+
+.support-service-level-agree {
+    text-align: center;
+}
+
+.support-service-level-agree p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    color: #777777;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+    background-color: transparent;
+}
+
+.support-service-level-agree h2 {
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+}
+
+.support-service-level-agree img {
+    max-width: 532px;
+    max-height: 461px;
+}
+
+.support-level-only-img {
+    visibility: visible;
+}
+
+.support-level-only-carousel {
+    display: none;
+}

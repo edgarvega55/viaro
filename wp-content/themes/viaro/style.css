@@ -1,0 +1,743 @@
+/*
+Theme Name: Viaro
+Author: Edgar Vega
+Description: Custom theme created for Viaro
+textdomain: viaro 
+*/
+
+/* Color Guide *
+
+ orange     -- #e64b3c
+ light grey -- #747474
+ dark gray  -- #383838
+
+*/
+
+/* ------------- HEADER ------------*/
+
+/* start Navbar*/
+.navbar {
+    background-color: rgba(0,0,0,.8);
+    color: #ffffff;
+    padding-bottom: 10px !important;
+    position: fixed !important;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#nav-button {
+    color: rgba(224, 59, 13, 0.79)
+}
+
+.active-nav {
+    color: #e64b3c !important;
+}
+
+.navbar-nav li a {
+    font-weight: bold !important;
+    color: #ffffff;
+    background-color: transparent !important;
+    padding-right: 9px !important;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-nav li a:hover {
+    color: #e64b3c !important;
+    background-color: transparent !important;
+}
+
+.navabar-lit-items-black {
+    background-color: rgba(0,0,0,.8) !important;
+}
+
+/* End Navbar*/
+
+/* ------------- BODY ------------*/
+
+/* Start Carousel*/
+.main-carousel-item img {
+    object-fit: cover !important;
+}
+
+.btn-details {
+    border-radius: 6px !important;
+    border: 6px solid rgba(0,0,0,.5) !important;
+}
+
+
+.content-carousel {
+    text-align: left !important;
+    font-weight: bold;
+    font-family: open-sans, sans-serif !important;
+}
+
+.content-carousel h1 {
+   font-size: 50px;
+   line-height: 60px;
+}
+
+/* End Carousel*/
+
+/* Start General Class */
+.text-orange {
+    color: #e64b3c !important;
+}
+
+.background-orange {
+    background-color: #e64b3c !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.bar-bg {
+    z-index: 208;
+    width: 1px;
+    height: 92px;
+    border-color: black;
+    background-color: #cdcdcd;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -1px;
+    position: relative;
+}
+
+.circle-bg {
+    z-index: 208;
+    width: 9px;
+    height: 9px;
+    border-radius: 100%;
+    border-color: #383838;
+    background-color: #747474;
+    margin-left: auto;
+    margin-right: auto;
+    top: -1px;
+    margin-bottom: -1px;
+    position: relative;
+}
+
+body {
+    background-color: white;
+    font-family: open-sans, sans-serif;
+}
+
+/* End General Class */
+
+/* Start Articles */
+.articles-home {
+    background-color: #fafafa;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.card-article-body {
+    background-color: #fafafa;
+}
+
+.card-article {
+    border: none !important;
+}
+
+.title-article-card-body {
+    padding-top: 1em;
+    color: #000;
+    background-color: transparent;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-family: open-sans, sans-serif;
+}
+
+.text-article-card-body {
+    line-height: 22px;
+    color: #777777;
+    font-size: 18px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+/* End Articles */
+
+/* Start Dedicated */
+.dedicated {
+    text-align: center;
+    background-color: #f7f5f2;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.dedicated-text {
+    line-height: 32px;
+    font-size: 23px;
+    color: #777;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+/* End Dedicated */
+
+/* Start History */
+.history {
+    margin-bottom: 3em;
+}
+
+.history-icon {
+    display: block;
+    position: relative;		
+    width: 300px;
+    font-size: 14em !important;
+    color:#e5e5e5;
+}
+
+.history-big {
+    visibility: visible;
+}
+
+.history-little {
+    display:none !important;
+}
+
+.history-text {
+    background-color:transparent;
+    display: block;
+    position: absolute;
+    bottom: 210px;
+    padding: 5px;
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+    font-size: 24px; 
+}
+
+.carousel-history {
+    filter:brightness(0.4);
+}
+
+.carousel-history-img {
+    object-fit: scale-down !important;
+    max-height: 86px;
+    vertical-align: middle;
+    margin: 0%
+}
+
+#carouselHistoryIndicators ol {
+    bottom: -86px;
+}
+
+#carouselHistoryIndicators ol li {
+    background-color: #777;
+}
+
+#carouselHistoryIndicators ol li.active {
+    background-color: #e64b3c !important;
+}
+
+#carouselHistoryIndicators a span {
+    background-color: #777;
+}
+
+/* End History */
+
+/* Start Comments */
+
+.comments-carousel-big {
+    display:block !important; 
+}
+
+.comments-carousel-little {
+    display:none !important; 
+}
+
+.comment-image {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.comment-name {
+    text-align: right;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.comment-name p {
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.comment-work {
+    text-align: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.comment-work p {
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+.commets {
+    background-color: #F7F5F2;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.comment-text {
+    padding-top: 10px;
+    text-align: center !important;
+    color: gray;
+    font-size: 16px;
+    height: 65px;
+}
+
+.comments-indicators {
+    bottom: -3em !important;
+}
+
+#carouselComments ol li {
+    background-color: #383838;
+}
+
+#carouselComments ol li.active {
+    background-color: #e64b3c !important;
+}
+
+.comments-carousel {
+    background-color:transparent;
+    display: block;
+    position: absolute;
+    bottom: 150px;
+    padding: 5px;
+}
+
+.comments-icon {
+    display: block;
+    position: relative;		
+    width: 400px;
+    font-size: 14em !important;
+    color:#e5e5e5;
+}
+
+/* End Comments */
+
+/* Start About */
+.about-title {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: open-sans, sans-serif;
+}
+
+.about-text {
+    line-height: 22px;
+    background-color: transparent;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.about-link{
+    background-color: transparent;
+    color: #E64B3C;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+/* Start Services*/
+
+#main-pages {
+    background-color: #E64B3C;
+    color: #fff;
+    padding-top: 180px;
+    padding-bottom: 70px;
+    width: 100%; 
+    text-align: left;
+}
+
+.container-breadcrumb {
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.10);
+}
+
+.nav-breadcrumb{
+    background-color: white !important;
+}
+
+.breadcrumb-item a {
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.delivering {
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.experienced {
+    background-color: #f7f5f2;
+    padding-top: 2em;
+}
+
+#experienced-text {
+    color: #777777;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: 50px;
+    font-family: open-sans, sans-serif;
+}
+
+.experienced-text-list {
+    color: #777777;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 29px;
+    font-family: open-sans, sans-serif;
+    font-weight: 100;
+    background-color: transparent;
+}
+
+.experienced-big {
+    visibility: visible;
+}
+
+.experienced-little {
+    display:none !important;
+}
+
+.interoperability-big {
+    visibility: visible;
+}
+
+.interoperability-little {
+    display:none !important;
+}
+
+.web-desktop-big {
+    visibility: visible;
+}
+
+.web-desktop-little {
+    display:none !important;
+}
+
+.mobile-app-big {
+    visibility: visible;
+}
+
+.mobile-app-little{
+    display:none !important;
+}
+
+.contract-big {
+    visibility: visible;
+}
+
+.contract-little {
+    display:none !important;
+}
+
+.service-about-big {
+    visibility: visible;
+}
+
+.service-about-little {
+    display:none !important;
+}
+
+.customer-carousel-big {
+    visibility: visible;
+}
+
+.customer-carousel-little {
+    display:none !important;
+}
+
+.contact-big {
+    visibility: visible;
+}
+
+.contact-little {
+    display:none !important;
+}
+
+.contact-smaller {
+    display:none !important; 
+}
+
+.content-white {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.content-gray {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f7f5f2;
+    text-align: center;
+}
+
+.text-contract {
+    font-size: 23px;
+    color: #777777;
+    background-color: transparent;
+    font-family: open-sans, sans-serif;
+    font-weight: 100;
+}
+
+.text-gray p{
+    text-align: center;
+    background-color: transparent;
+    color: #777777;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.image-shadow img {
+   box-shadow: 3px 3px 3px 3px;
+}
+
+.contract {
+    text-align: center
+}
+
+.bullets {
+    padding-left: 28px;
+}
+
+.contract-sections {
+    padding-top: 1em;
+    text-align: left !important;
+    font-family: open-sans, sans-serif;
+    font-size: 14px;
+    padding-left: 3em;
+    padding-right: 3em; 
+}
+
+.comments-services {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.comments-services h4 {
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+    color: #777777;
+}
+
+.comments-services p {
+    padding-bottom: 0px !important;
+}
+
+#carouselCommentsServices ol li {
+    background-color: #383838;
+}
+
+#carouselCommentsServices ol li.active {
+    background-color: #e64b3c !important;
+}
+
+.carousel-comments-service {
+    height: 200px;
+}
+
+.service-about {
+    background-attachment: fixed !important;
+    background-position: -21px -1107px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #7F7F7F url(assets/images/services/parallax.jpg) repeat center center;
+    color: white;
+    text-align: center;
+}
+
+.service-about-text p {
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+.service-about-text {
+    text-align: center;
+}
+
+.service-about-text-icon {
+    text-align: right;
+}
+
+.service-about-text li { 
+    text-align: left;
+    color: #777777;
+    font-size: 23px;
+}
+
+.service-about-text ul {
+   justify-content: center; 
+   display:inline-block
+}
+
+.service-about-icon {
+    width: 300px;
+    font-size: 14em !important;
+    color:#e5e5e5;
+}
+
+.customer-item {
+    height: 150px;
+}
+
+.customer-carousel ol {
+    bottom: 0 !important;
+}
+
+.about-content-text {
+    padding-left: 10px;
+}
+
+.about-content {
+    padding-top: 10px;
+}
+
+.about-content p {
+    color: #777777;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.about-sections {
+    padding-bottom: 80px;
+}
+
+.content-about {
+    padding-top: 45px; 
+    padding-bottom: 45px; 
+}
+
+.content-about-video {
+    text-align: center;
+}
+
+.content-about-title {
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.about-video {
+    width: 560px;
+    height: 315px;
+}
+
+.contact {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-right: 16% !important;
+    padding-left: 16% !important;
+}
+
+.contact p {
+    line-height: 10px;
+    color: #777777;
+    font-size: 16px;
+    text-align: left;
+    font-family: open-sans, sans-serif;
+    font-weight: 300;
+}
+
+.contact h4 {
+    color: #403E3D;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: open-sans, sans-serif;
+    padding-bottom: 15px;
+}
+
+.frame-address {
+    width: 100%;
+    height: 230px;
+}
+
+.contact-address {
+    margin-bottom: 20px;
+}
+
+/* End Services */
+
+/* End About*/
+
+/* ------- FOOTER -------- */
+
+footer {
+    background-color: #1C1C1C;
+    color: #fff !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-title-list {
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    font-size: 18px;
+}
+
+.footer-title-item {
+    color: #DEDDDD;
+    font-size: 14px;
+}
+
+.footer-title-item:hover {
+    color: #E64B3C !important;
+    text-decoration: none;
+}
+
+footer form input {
+    margin-bottom: 10px;
+}
+
+footer form button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+footer li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.footer-office {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+#footer-arrow {
+    background-color: #1C1C1C;
+}
+
+.footer-center-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#copyright {
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 19px;
+    color: #222222;
+    font-size: 16px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+}

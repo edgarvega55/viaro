@@ -4,6 +4,22 @@
         margin-left: 7.5em;
         margin-right: 7.5em;
     }
+
+    .functional-dedicated-big {
+        display: none;
+    }
+    
+    .functional-dedicated-little {
+        display: block;
+    }
+
+    #carouselDedicatedServices ol li {
+        background-color: #777;
+    }
+
+    #carouselDedicatedServices ol li.active {
+        background-color: #E64B3C !important;
+    }
 }
 
 @media (max-width: 990px) { 
@@ -56,17 +72,16 @@
         font-weight: 60;         
     }
 
-    #carouselHistoryIndicatorsLittle ol li {
+    #carouselSupportServices ol li {
         background-color: #777;
     }
 
-    #carouselHistoryIndicatorsLittle ol li.active {
+    #carouselSupportServices ol li.active {
         background-color: #E64B3C !important;
     }
 
-    #carouselHistoryIndicatorsLittle img {
-        max-width: 120px;
-        max-height: 70px
+    .carousel-support-service {
+        height: 150px;
     }
 
     .text-gray p {
@@ -124,6 +139,10 @@
     
     .support-level-only-carousel {
         display: block;
+    }
+
+    .carousel-functional-service {
+        height: 300px;
     }
 }
 
@@ -199,6 +218,9 @@
         font-size: 1em;
     }
 
+    .carousel-functional-service {
+        height: 330px;
+    }
 }
 
 @media (max-width: 472px) {
@@ -214,6 +236,23 @@
     .applications-tailored-text-icon {
         font-size: 10em;
         margin-left: 0.6em;
+    }
+
+    .carousel-support-service {
+        height: 180px;
+    }
+
+    .functional-dedicated-little h4 {
+        font-size: 1.2rem;
+    }
+    
+    .functional-dedicated-little p {
+        font-size: 0.9rem;
+        padding: 0;
+    }
+
+    .carousel-functional-service {
+        height: 350px;
     }
 }
 
@@ -255,6 +294,19 @@
     .ui-stack ul li {
        padding-left: 0; 
     }
+
+    .carousel-support-service {
+        height: 200px;
+    }
+
+    .functional-dedicated-little p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+    .carousel-functional-service {
+        height: 350px;
+    }
 }
 
 @media (max-width: 295px) {
@@ -280,5 +332,16 @@
         bottom: -20px;
         line-height: 25px;
     }
+    .functional-dedicated-little h4 {
+        font-size: 1.1rem;
+    }
 
+    .functional-dedicated-little p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+
+    .carousel-functional-service {
+        height: 340px;
+    }
 }

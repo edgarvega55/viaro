@@ -638,6 +638,8 @@ body {
     height: 315px;
 }
 
+/* End About*/
+
 .contact {
     padding-top: 45px;
     padding-bottom: 45px;
@@ -671,10 +673,7 @@ body {
 .contact-address {
     margin-bottom: 20px;
 }
-
 /* End Services */
-
-/* End About*/
 
 /* ------- FOOTER -------- */
 
@@ -741,3 +740,4 @@ footer li {
     font-family: open-sans, sans-serif;
     font-weight: 400;
 }
+

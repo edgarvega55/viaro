@@ -246,3 +246,81 @@
 .support-level-only-carousel {
     display: none;
 }
+
+#arrows-logo {
+    width: 100%;
+    height: 220px;
+    margin-top: -210px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.how-it-works {
+    text-align: center;
+}
+
+.how-it-works h4 {
+    font-family: open-sans, sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.how-it-works li {
+    color: #777777;
+}
+
+.how-it-works p {
+    color: #777777;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.dedicated-support h3 {
+    line-height: 20px;
+    font-size: 22px;
+    font-family: open-sans, sans-serif;
+    color: #777;
+    font-weight: 800;
+}
+
+.dedicated-support p {
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: open-sans, sans-serif;
+    color: #777;
+}
+
+.content-white-dedicated-support {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.functional-dedicated-big {
+    visibility: visible
+}
+
+.functional-dedicated-little {
+    display: none;
+}
+
+.functional-dedicated-little h2 {
+    text-align: center;
+}
+
+.functional-dedicated-little p {
+    font-size: 1rem;
+    padding: 0;
+}
+
+.box-functional {
+    border: 1px solid rgba(0,0,0,.08);
+    padding-top: 5px;
+    padding-bottom: 5px;  
+}
+
+.carousel-functional-service {
+    height: 230px;
+}

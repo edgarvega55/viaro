@@ -58,7 +58,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12">
                         <img src="<?php bloginfo('template_url'); ?>/assets/images/services/icons/maintenance.png" alt="qa" class="icon">
                         <h4>Application Maintenance</h4>
                         <p>Level support services whether the applications were developed by Viaro or by another vendor. Viaro professional services include:</p>
@@ -68,12 +68,12 @@
                             <li>Upgrades and new releases</li>
                         </ul>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12">
                         <img src="<?php bloginfo('template_url'); ?>/assets/images/services/icons/enhancement2.png" alt="qa" class="icon">
                         <h4>Application Enhancement</h4>
                         <p>Professional functionality development of the new application, including migration or extension of the current or legacy system for usability.</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-lg-4 col-md-12">
                         <img src="<?php bloginfo('template_url'); ?>/assets/images/services/icons/monitoring.png" alt="qa" class="icon">
                         <h4>System Monitoring</h4>
                         <p>We ensure system uptime via 24/7 monitoring of apps, hardware, and system performance. Your support team is automatically alerted the moment your system is somewhat affected so that your application won't go down or become overloaded.</p>
@@ -111,7 +111,7 @@
                         <li data-target="#carouselSupportServices" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
-                        <div class="carousel-item active carousel-comments-service">
+                        <div class="carousel-item active carousel-support-service">
                             <div class="row">
                                 <div class="col-12">
                                     <h2>1 Level <i class="fas fa-users"></i></h2>
@@ -119,18 +119,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item carousel-comments-service">
+                        <div class="carousel-item carousel-support-service">
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 text-color-light-blue">
                                     <h2>2 Level <i class="fas fa-chart-pie"></i></h2>
                                     <p>The software engineer provides this service by helping to reproduce the problem.<p>
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item carousel-comments-service">
+                        <div class="carousel-item carousel-support-service">
                             <div class="row">
-                                <div class="col-12">
-                                    <h2>3 Level <i class="fas fa-chart-pie"></i></h2>                                    
+                                <div class="col-12 text-color-dark-orange">
+                                    <h2>3 Level <i class="far fa-envelope"></i></h2>                                    
                                     <p>This is the full-cycle troubleshooting: we isolate the code defects or any other technical failures and then provide fixes and corrected bugs.<p>
                                 </div>
                             </div>

@@ -1,0 +1,51 @@
+.text-color-light-blue {
+    color: #257CBA;
+}
+
+.text-color-dark-orange {
+    color: #A44A36;
+}
+
+.text-color-light-blue p {
+    color: #257CBA !important;
+}
+
+.text-color-dark-orange p {
+    color: #A44A36 !important;
+}
+
+.text-title-color-dark-orange  {
+    color: #E64B3C !important;
+}
+
+.text-color-light-blue-transparent {
+    color: #7D93AA;
+}
+
+.text-color-pale-yellow {
+    color: #B5A238;
+}
+
+.text-color-pale-gray {
+    color: #7E8965;
+}
+
+.text-color-maroon {
+    color: #732A21;
+}
+
+.text-color-pale-green {
+    color: #7E7E7E;
+}
+
+.text-color-light-yellow {
+    color: #AC7844;
+}
+
+.text-color-aqua {
+    color: #48636E;
+}
+
+.text-color-light-black {
+    color: #9F9D9D;
+}

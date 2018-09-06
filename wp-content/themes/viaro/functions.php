@@ -27,6 +27,8 @@ function viaro_styles() {
     wp_enqueue_style( 'main_style', get_stylesheet_uri() );
     wp_enqueue_style( 'media_css', get_template_directory_uri() . '/assets/css/style-media.css' );
     wp_enqueue_style( 'service_css', get_template_directory_uri() . '/assets/css/service.css' );
+    wp_enqueue_style( 'dedicated_development_css', get_template_directory_uri() . '/assets/css/style-dedicated-development-texts.css' );
+    wp_enqueue_style( 'text_colors_css', get_template_directory_uri() . '/assets/css/style-colors-text.css' );
     wp_enqueue_style( 'service_media_css', get_template_directory_uri() . '/assets/css/media/service-media.css' );
     wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
     wp_enqueue_style( 'fontawesone_css', get_template_directory_uri() . '/assets/css/all.min.css' );

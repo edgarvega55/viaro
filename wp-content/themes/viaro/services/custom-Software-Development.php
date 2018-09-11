@@ -101,7 +101,7 @@
                 <p>Our experience in Business Process Management, Resource Planning, Customer Relationship Management, Collaboration and corporate portals, and other business domains.</p>
             </div>
             <div class="col-4">
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/devintegration.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/devintegration.jpg"/>
             </div>
         </div>
         <div class="row interoperability-little">
@@ -109,7 +109,7 @@
                 <h2>Enterprise Systems Development and Interoperability</h2>
                 <p>"No matter how simple or complex your needs are, we have the skills to build your enterprise solution."</p>
                 <p>Our experience in Business Process Management, Resource Planning, Customer Relationship Management, Collaboration and corporate portals, and other business domains.</p>
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/devintegration.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/devintegration.jpg"/>
             </div>
         </div>
     </div>
@@ -121,7 +121,7 @@
     <div class="container">
         <div class="row web-desktop-big">
             <div class="col-5">
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/webdesk.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/webdesk.jpg"/>
             </div>
             <div class="col-1"></div>    
             <div class="col-6">
@@ -133,7 +133,7 @@
             <div class="col-12">
                 <h2>Web and Desktop Development</h2>
                 <p>Viaro creates feature-rich websites, portals, and custom Web applications for any company or person with a stake in the Internet. We also have excellent expertise in desktop software, and we deliver SaaS solution development, deployment, and support services.</p>
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/webdesk.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/webdesk.jpg"/>
             </div>
         </div>
     </div>
@@ -149,14 +149,14 @@
                 <p>Viaro makes sure that your app go to popular mobile platforms (iOS, Android, Windows Phone, and others). If you want to connect your customers, providers, collaborators, and employees to your Web portals, if you need to create a new mobile app, or if It's time to connect the app to a third-party service, we are your partner.</p>
             </div>
             <div class="col-4">
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/mobileapp.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/mobileapp.jpg"/>
             </div>
         </div>
         <div class="row mobile-app-little">
             <div class="col-12">
                 <h2>Mobile Application Development</h2>
                 <p>Viaro makes sure that your app go to popular mobile platforms (iOS, Android, Windows Phone, and others). If you want to connect your customers, providers, collaborators, and employees to your Web portals, if you need to create a new mobile app, or if It's time to connect the app to a third-party service, we are your partner.</p>
-                <img class="d-block w-100 rounded mx-auto" src="<?php bloginfo('template_url'); ?>/assets/images/services/mobileapp.jpg"/>
+                <img class="d-block w-100 rounded mx-auto image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/mobileapp.jpg"/>
             </div>
         </div>
     </div>

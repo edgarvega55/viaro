@@ -16,8 +16,8 @@
             <div class="carousel-caption  content-carousel d-md-block">
                 <h1>Premium Software</h1>
                 <h1>Development</h1>
-                <h2 class="text-orange">.Net C# Java Angular JS iOS Android Oracle Django </h2>
-                <h2>Great technologies to create awesome products.</h2>
+                <h2 class="text-orange text-carousel">.Net C# Java Angular JS iOS Android Oracle Django </h2>
+                <h2 class="text-carousel">Great technologies to create awesome products.</h2>
                 <a href="" class="btn btn-lg background-orange text-white btn-details" >
                     <i class="fas fa-link"></i>
                     | Details
@@ -28,7 +28,7 @@
             <img class="d-block w-100 center" src="<?php bloginfo('template_url'); ?>/assets/images/carousel-2.jpg" alt="Second slide" height="582" >
             <div class="carousel-caption content-carousel d-md-block">
                 <h1>Custom Software Development</h1>
-                <h2>Superior <span class="text-orange">Technological Development with the Best Quality</span>Assurance Viaro is your cost-effective and reliable partner to provide custom software solutions tailored to your requirements. We provide everything from customization of your current platforms to new, full-cycle customized applications. And It's all built to match your vision.</h2>
+                <h2  class="text-carousel">Superior <span class="text-orange">Technological Development with the Best Quality</span>Assurance Viaro is your cost-effective and reliable partner to provide custom software solutions tailored to your requirements. We provide everything from customization of your current platforms to new, full-cycle customized applications. And It's all built to match your vision.</h2>
                 <a href="" class="btn btn-lg background-orange text-white btn-details" >
                     <i class="fas fa-link"></i>
                     | Details
@@ -40,7 +40,7 @@
             <div class="carousel-caption  content-carousel  d-md-block">
                 <h1>Mobile, Web and Desktop Apps.</h1>
                 <h1>Software Testing and Quality Assurance</h1>
-                <h2>For every challenge, we bring the best solutions for our clients. Quality assurance from start to finish.</h2>
+                <h2  class="text-carousel">For every challenge, we bring the best solutions for our clients. Quality assurance from start to finish.</h2>
                 <a href="" class="btn btn-lg background-orange text-white btn-details" >
                     <i class="fas fa-link"></i>
                     | Details
@@ -331,7 +331,7 @@
                         <li data-target="#carouselCommentsLittle" data-slide-to="1"></li>
                         <li data-target="#carouselCommentsLittle" data-slide-to="2"></li>
                     </ol>
-                    <div class="carousel-inner">
+                    <div class="carousel-inner home-comments">
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-7 comment-name">

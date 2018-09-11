@@ -63,6 +63,14 @@
     .ui-stack h3 {
         font-size: 1.5em;
     }
+
+    .applications-tailored-text h2 {
+        bottom: 80px;
+    }
+
+    .applications-tailored-text p {
+        bottom: -15px;
+    }
 }
 
 @media (max-width: 765px) { 
@@ -114,9 +122,15 @@
     }
     
     .applications-tailored-text h2 {
-        margin-left: 1em;
-        margin-right: 1em;
-        bottom: 150px;
+        margin-left: 0em;
+        margin-right: 0em;
+        bottom: 90px;
+        line-height: 30px;
+    }
+
+    .applications-tailored-text p {
+        bottom: -15px;
+        line-height: 30px;
     }
 
     .service-text-gray ul li.text-big {
@@ -188,15 +202,17 @@
     }
 
     .applications-tailored-text h2 {
-        margin-left: 0.5em;
-        margin-right: 0.5em;
-        bottom: 130px;
-        font-size: 1.2em !important;
+        margin-left: 3.5em;
+        margin-right: 3.5em;
+        bottom: 100px;
+        font-size: 1.1em !important;
+        line-height: 22px;
     }
     
     .applications-tailored-text p {
-        font-size: 16px;
+        font-size: 15px;
         bottom: 10px;
+        line-height: 22px;
     }
     
     .img-float-right-service {
@@ -258,7 +274,9 @@
 
 @media (max-width: 350px) {
     .applications-tailored-text h2 {
-        bottom: 150px;
+        bottom: 90px;
+        margin-left: 2.5em;
+        margin-right: 2.5em;
     }
     
     .applications-tailored-text p {
@@ -311,12 +329,15 @@
 
 @media (max-width: 295px) {
     .applications-tailored-text h2 {
-        bottom: 150px;
-        font-size: 1em !important;
+        bottom: 80px;
+        font-size: 0.9em !important;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
     }
     
     .applications-tailored-text p {
         bottom: -15px;
+        font-size: 12px;
     }
     
     .applications-tailored-text-icon {
@@ -325,12 +346,14 @@
     }
 
     .applications-desktop-text h2 {
-       font-size: 18px !important;
+       font-size: 16px !important;
+       bottom: 105px !important;
     }
 
     .applications-desktop-text p {
         bottom: -20px;
         line-height: 25px;
+        font-size: 14px;
     }
     .functional-dedicated-little h4 {
         font-size: 1.1rem;

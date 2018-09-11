@@ -1,0 +1,71 @@
+@media (max-width: 340px) {
+    .tech-portfolio {
+        height: 550px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .tech-portfolio {
+        height: 600px !important;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .content-white-technologie  h3 {
+        font-size: 1.5rem;
+    }
+    
+    .content-gray-technologie  h3 {
+        font-size: 1.5rem;
+    }
+
+    .content-white-technologie  p {
+        font-size: 0.9rem;
+    }
+    
+    .content-gray-technologie  p {
+        font-size: 0.9rem;
+    }
+
+    .li-18x li {
+        font-size: 0.9rem;
+    }
+
+    .li-16x li {
+        font-size: 0.9rem;
+    }
+
+    #embed-learning {
+        width: 300px; 
+        height: 200px;
+    }
+
+    .healthcare-feature:after {
+        left: 70%;
+    }
+
+    #indicators-expertise {
+        bottom: 0 !important;
+    }
+}
+
+@media (max-width: 990px) {  
+    .embed-learning embed {
+        width: 550px; 
+        height: 350px;
+    }
+
+    .tech-portfolio {
+        height: 500px;
+    }
+    
+}
+
+@media (max-width: 720px) {  
+    .embed-learning embed {
+        width: 500px; 
+        height: 300px;
+    }
+    
+}

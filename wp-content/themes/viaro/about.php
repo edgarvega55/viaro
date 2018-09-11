@@ -226,7 +226,7 @@
             <div class="col-12 content-about-title">
                 <h1>Primary Values</h1>   
             </div>  
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="row about-sections">
                     <div class="col-1">
                         <img src="<?php bloginfo('template_url'); ?>/assets/images/about/customers.png" alt="customers" >
@@ -246,7 +246,7 @@
                     </div>
                 </div>
             </div> 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-12">
                 <div class="row about-sections">
                     <div class="col-1">
                         <img src="<?php bloginfo('template_url'); ?>/assets/images/about/economics.png" alt="customers" >

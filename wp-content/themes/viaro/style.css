@@ -66,6 +66,9 @@ textdomain: viaro
     border: 6px solid rgba(0,0,0,.5) !important;
 }
 
+#Maincarousel ol li.active {
+    background-color: #E64B3C !important;
+}
 
 .content-carousel {
     text-align: left !important;

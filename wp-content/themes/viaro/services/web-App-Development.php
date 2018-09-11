@@ -54,7 +54,7 @@
 <div class="bar-bg"></div>
 
 <!-- #region Enterprise   -->
-<div class="col-md-12 content-gray-service service-text-gray service-enterprise">
+<div class="col-md-12 content-gray-service service-text-gray service-enterprise ">
     <div class="container">
         <div class="row service-content-big">
             <div class="col-md-6 col-sm-12">
@@ -71,7 +71,7 @@
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="d-block w-100 rounded mx-auto img-float-right-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/dev-enterprise.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-right-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/dev-enterprise.jpg"/>
             </div>
         </div>
     </div>
@@ -83,7 +83,7 @@
     <div class="container">
         <div class="row service-content-big">
             <div class="col-md-6 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/web-portal.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/web-portal.jpg"/>
             </div>
             <div class="col-md-6 col-sm-12 service-div-text">
                 <h2>Development of Web Portals</h2>
@@ -107,7 +107,7 @@
                 </ul>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="d-block w-100 rounded mx-auto img-float-right-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/ecommerce.png"/>
+                <img class="d-block w-100 rounded mx-auto img-float-right-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/ecommerce.png"/>
             </div>
         </div>
     </div>
@@ -119,7 +119,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/API.png"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/API.png"/>
             </div>
             <div class="col-md-6 col-sm-12  service-div-text">
                 <h2>API Interoperability Services</h2>
@@ -144,7 +144,7 @@
                 <p>We believe that the basis of a project's success is a complete analysis of its concept. We will bring our experience and expertise to help you analyze the idea or business need so that you can apply the best solution.</p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="d-block w-100 rounded mx-auto img-float-right-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/bus-analysis.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-right-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/bus-analysis.jpg"/>
             </div>
         </div>
     </div>
@@ -156,7 +156,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/data-management.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/data-management.jpg"/>
             </div>
             <div class="col-md-6 col-sm-12  service-div-text">
                 <h2>Data Management</h2>
@@ -176,7 +176,7 @@
                 <p>Our team is limited to professionals with more than five years' experience in the field. And our Agile principles mean that you will be in on the process as an active participant.</p>
             </div>
             <div class="col-md-6 col-sm-12">
-                <img class="d-block w-100 rounded mx-auto img-float-right-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/programming.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-right-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/programming.jpg"/>
             </div>
         </div>
     </div>
@@ -188,7 +188,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/test-qa.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/test-qa.jpg"/>
             </div>
             <div class="col-md-6 col-sm-12  service-div-text">
                 <h2>Testing and QA</h2>

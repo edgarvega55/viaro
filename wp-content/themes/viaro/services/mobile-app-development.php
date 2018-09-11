@@ -150,7 +150,7 @@
                 <p>How do we accelerate mobility performance? Viaro fine-tunes loads and creates backend environments that can handle your app scalability needs. We implement the best performance and efficient resource consumption techniques. We focus on a simple, intuitive, and fast UI.</p>
             </div>
             <div class="col-md-5 col-sm-12">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/performance.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/performance.jpg"/>
             </div>
         </div>
     </div>
@@ -162,7 +162,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/security.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/security.jpg"/>
             </div>
             <div class="col-md-6 col-sm-12  service-div-text">
                 <h2>Security</h2>
@@ -182,7 +182,7 @@
                 <p>We make sure that your apps are interoperable and can integrate, no matter the software and sources, using the best interoperability solutions according to your infrastructure requirements.</p>
             </div>
             <div class="col-md-5 col-sm-12 service-div-img">
-                <img class="d-block w-100 rounded mx-auto img-float-left-service" src="<?php bloginfo('template_url'); ?>/assets/images/services/interoperability.jpg"/>
+                <img class="d-block w-100 rounded mx-auto img-float-left-service image-scrolling" src="<?php bloginfo('template_url'); ?>/assets/images/services/interoperability.jpg"/>
             </div>
         </div>
     </div>

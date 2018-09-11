@@ -21,6 +21,17 @@
     /* End Body */
 } 
 
+@media (min-width: 310px) {
+    .text-carousel {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+    
+    .home-comments {
+        height: 430px;
+    }
+}
+
 @media (max-width: 400px) {
     .comment-image {
         margin-bottom: 0px !important;
@@ -31,6 +42,13 @@
 
     .comment-text {
         height: 160px !important;
+    }
+    
+    .home-comments {
+        height: 405px;
+    }
+    .content-carousel {
+        bottom: 110px !important;
     }
 
     .content-carousel h1 {
@@ -67,7 +85,7 @@
     }
 
     .content-carousel h2 {
-        font-size: 20px;
+        font-size: 18px !important;
         line-height: 30px;
     }
 
@@ -222,7 +240,7 @@
     .experienced-text-list {
         color: #777777;
         font-size: 16px;
-        text-align: justify;
+        text-align: left;
         line-height: 29px;
         font-family: open-sans, sans-serif;
         font-weight: 100;
@@ -417,7 +435,7 @@
     }
 
     .frame-address {
-        width: 90%;
+        width: 100%;
     }
 
     .contact p {

@@ -51,7 +51,7 @@
                     <div class="form-group">
                         <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required="true"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger" id="btn-send">Send</button>
+                    <button type="submit" class="btn btn-danger btn-contact-page" id="btn-send">Send</button> <a class="icon-sendin-content"><i class="fas fa-spinner fa-spin fa-2x icon-sending"></i></a>
                 </form>
             </div>
             <div class="col-6">
@@ -92,20 +92,22 @@
             <div class="col-12 contact-form">
                 <h2>Contact Form</h2>
                 <br>
-                <form action="" method="get">
+                <form id="contact-form-little" method="POST">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input class="form-control" type="text" name="name-little" id="name-little" placeholder="Enter Your Name">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input class="form-control" type="email" name="email-little" id="email-little" placeholder="Enter Your Email">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                        <input class="form-control" type="text" name="phone-little" id="phone-little" placeholder="Enter Your Phone">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <textarea class="form-control" name="message-little" id="message-little" rows="6" placeholder="Enter Your Message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger" id="btn-send">Send</button>
+                    <button type="submit" class="btn btn-danger btn-contact-page" id="btn-send">Send</button> <a class="icon-sendin-content"><i class="fas fa-spinner fa-spin fa-2x icon-sending"></i></a>
+                    <br><br>
+                    <div class="alert alert-success alert-message-send" role="alert"></div>           
                 </form>
             </div>
             <div class="col-12">
@@ -142,20 +144,22 @@
             <div class="col-12 contact-form">
                 <h2>Contact Form</h2>
                 <br>
-                <form action="" method="get">
+                <form id="contact-form-smaller" method="POST">
                     <div class="form-group">
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input class="form-control" type="text" name="name-smaller" id="name-smaller" placeholder="Enter Your Name">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input class="form-control" type="email" name="email-smaller" id="email-smaller" placeholder="Enter Your Email">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                        <input class="form-control" type="text" name="phone-smaller" id="phone-smaller" placeholder="Enter Your Phone">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <textarea class="form-control" name="message-smaller" id="message-smaller" rows="6" placeholder="Enter Your Message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger" id="btn-send">Send</button>
+                    <button type="submit" class="btn btn-danger btn-contact-page" id="btn-send">Send</button> <a class="icon-sendin-content"><i class="fas fa-spinner fa-spin fa-2x icon-sending"></i></a>
+                    <br><br>
+                    <div class="alert alert-success alert-message-send" role="alert"></div>     
                 </form>
             </div>
             <div class="col-12">

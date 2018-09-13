@@ -45,7 +45,7 @@
                         <input type="hidden" name="" id="url-site" value="<?= bloginfo('url'); ?>" >
                         <textarea class="form-control" rows="3" placeholder="Enter Your Message" id="contact-message" name="message" required="true"></textarea>
                         <p hidden="hidden" id="notification">Your message has been sent!</p>
-                        <button type="submit" class="btn btn-danger" id="btn-send">Send</button>
+                        <button type="submit" class="btn btn-danger btn-contact-page-footer" id="btn-send">Send</button> <a class="icon-sendin-content-footer"><i class="fas fa-spinner fa-spin fa-2x icon-sending"></i></a>
                     </form>
                 </div>
                 <div class="col-sm-6 col-md-3">

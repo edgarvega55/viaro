@@ -676,6 +676,12 @@ body {
 .contact-address {
     margin-bottom: 20px;
 }
+
+.icon-sending {
+    margin-left: 10px;
+    color: #777777;
+}
+
 /* End Services */
 
 /* ------- FOOTER -------- */

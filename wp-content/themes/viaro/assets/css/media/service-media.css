@@ -325,6 +325,10 @@
     .carousel-functional-service {
         height: 350px;
     }
+
+    #carouselDedicatedServices ol {
+        bottom: 20px;
+    }
 }
 
 @media (max-width: 295px) {

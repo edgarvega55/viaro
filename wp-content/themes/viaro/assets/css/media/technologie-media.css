@@ -8,6 +8,11 @@
     .tech-portfolio {
         height: 600px !important;
     }
+
+    #embed-learning {
+        width: 200px !important; 
+    }
+
 }
 
 @media (max-width: 540px) {

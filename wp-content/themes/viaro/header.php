@@ -35,6 +35,7 @@
                                     <a class="dropdown-item" href="<?php bloginfo('url'); ?>/desktop-application-development/">Desktop Application Development</a>
                                     <a class="dropdown-item" href="<?php bloginfo('url'); ?>/software-testing-qa/">Software Testing & QA</a>
                                     <a class="dropdown-item" href="<?php bloginfo('url'); ?>/support-maintenance/">Support & Maintenance</a>
+                                    <a class="dropdown-item" href="<?php bloginfo('url'); ?>/dedicated-development-center/">Dedicated Development Center</a>
                                 </div>
                             </li>
                             <li class="nav-item dropdown">

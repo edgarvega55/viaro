@@ -38,18 +38,18 @@
             <div class="col-6">
                 <h2>Contact Form</h2>
                 <br>
-                <form action="" method="get">
+                <form  method="POST" id="contact-form" >
                     <div class="form-group">
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name">
+                        <input class="form-control" type="text" name="name" id="name" placeholder="Enter Your Name" required="true">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email">
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Enter Your Email" required="true">
                     </div>
                     <div class="form-group">
-                        <input class="form-control" type="text" name="phone" id="phone" placeholder="Enter Your Phone">
+                        <input class="form-control" type="text" name="phone" id="phone" placeholder="Enter Your Phone" required="true">
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Your Message"></textarea>
+                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter Your Message" required="true"></textarea>
                     </div>
                     <button type="submit" class="btn btn-danger" id="btn-send">Send</button>
                 </form>
@@ -67,8 +67,8 @@
                                 <p>20C Trolley Square</p>
                                 <p>Wilmington, DE 19806</p>
                                 <p>Tel: +1 (888) 962-2774</p>
-                                <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                                <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                                <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                                <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                             </div>
                         </div>
                         <div class="row">
@@ -80,8 +80,8 @@
                                 <p>6a. Av. 6-44 Z.10 Edificio Sixtino I</p>
                                 <p>Oficina 407, Guatemala, 01010</p>
                                 <p>Tel: +011 (502) 54823186</p>
-                                <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                                <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                                <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                                <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                             </div>
                         </div>
                     </div>
@@ -119,8 +119,8 @@
                         <p>20C Trolley Square</p>
                         <p>Wilmington, DE 19806</p>
                         <p>Tel: +1 (888) 962-2774</p>
-                        <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                        <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                        <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                        <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                     </div>
                 </div>
                 <div class="row contact-address">
@@ -132,8 +132,8 @@
                         <p>6a. Av. 6-44 Z.10 Edificio Sixtino I</p>
                         <p>Oficina 407, Guatemala, 01010</p>
                         <p>Tel: +011 (502) 54823186</p>
-                        <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                        <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                        <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                        <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                     </div>
                 </div>
             </div>
@@ -170,8 +170,8 @@
                         <p>20C Trolley Square</p>
                         <p>Wilmington, DE 19806</p>
                         <p>Tel: +1 (888) 962-2774</p>
-                        <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                        <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                        <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                        <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                     </div>
                 </div>
                 <div class="row contact-address">
@@ -184,8 +184,8 @@
                         <p>6a. Av. 6-44 Z.10 Edificio Sixtino I</p>
                         <p>Oficina 407, Guatemala, 01010</p>
                         <p>Tel: +011 (502) 54823186</p>
-                        <p>Email: <a href="contact.html">info@viaro.net</a></p>
-                        <p>Website: <a href="contact.html">www.viaro.net</a></p>
+                        <p>Email: <a href="mailto:info@viaro.net">info@viaro.net</a></p>
+                        <p>Website: <a href="https://viaro.net/">www.viaro.net</a></p>
                     </div>
                 </div>
             </div>

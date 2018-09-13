@@ -54,6 +54,16 @@ define('AUTH_SALT',        '/N8JP&o:H_:PrOMnFJD1Ad>tOG6?Zlk8dmC-&z.?6*32$N.^IMpe
 define('SECURE_AUTH_SALT', 'U!7m:jB0m@Bu({XM7.9bIk^50A8G.DHYj,j,n:fj2@b-9bU>:VF{8[:.^|W7jsE;');
 define('LOGGED_IN_SALT',   'ooOE:J&Bu,jL;,rTdp5kXFpT%5 AFk-Q>5~4bLr6n3LB{[AK; ;{2a]|@#-DB1np');
 define('NONCE_SALT',       'sUu~yj; 1K[rwn|+{>P<xG!YKJYu}Ub` H8(e>s,9O2A;q{JdHQM#ejBl35qoe--');
+define( 'SMTP_HOST', 'smtp.gmail.com' );  // A2 Hosting server name. For example, "a2ss10.a2hosting.com"
+define( 'SMTP_AUTH', true );
+define( 'SMTP_PORT', '465' );
+define( 'SMTP_SECURE', 'ssl' );
+define( 'SMTP_USERNAME', 'edgar.vega@viaro.net' );  // Username for SMTP authentication
+define( 'SMTP_PASSWORD', 'DropDead54' );          // Password for SMTP authentication
+define( 'SMTP_FROM',     'edgar.vega@viaro.net' );  // SMTP From address
+define( 'SMTP_FROMNAME', 'Edgar Vega' );         // SMTP From name
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'DropDead54' );
 
 /**#@-*/
 

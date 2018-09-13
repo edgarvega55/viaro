@@ -47,9 +47,13 @@ function viaro_scripts() {
     wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/assets/js/bootstrap.min.js');
     wp_enqueue_script( 'fontawesone_js', get_template_directory_uri() . '/assets/js/all.min.js');
     wp_enqueue_script( 'main_js', get_template_directory_uri() . '/assets/js/main.js');
+    wp_enqueue_script( 'form_contact', get_template_directory_uri() . '/assets/js/contact.js');
     wp_enqueue_script( 'viewportchecker_js', get_template_directory_uri() . '/assets/js/jquery.viewportchecker.js');
 }
 
 add_action( 'wp_enqueue_scripts', 'viaro_scripts');
 
 /* ----- Register Widget Areas ---- */
+
+
+
